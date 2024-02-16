@@ -18,6 +18,9 @@ console.log("That doesn't work");
 /* should return true. Change only the operator to fix it.
 console.log(50 + 2 > 52); */
 console.log(50 + 2 === 52);
+console.log(50 + 2 == 52);
+console.log(50 + 2 >= 52);
+console.log(50 + 2 <= 52);
 
 /* should be false. Change only the operator to fix it.
 console.log("333" == 333);*/
@@ -36,3 +39,5 @@ console.log(2 + 2);
 console.log(25 / 5); // Result: 5
 console.log(50 / 10); // Result: 5 */
 console.log(25 / 5 === 50 / 10);
+console.log(25 / 5 && 50 / 10);
+console.log(25 / 5 === 5 && 50 / 10 === 5);
