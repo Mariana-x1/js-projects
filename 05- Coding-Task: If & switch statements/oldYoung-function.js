@@ -1,11 +1,4 @@
 /*03) oldYoung function
-Implement a oldYoung function.
-
- The function has one parameter which is a number
- If the number is less than 16, return "children"
- If the number is less than 50, return "young person"
- Otherwise return "elder person"
- If the number is not a number or a negative number a string invalid parameter
 // TODO: Implement the oldYoung function*/
 
 function oldYoung(number) {
