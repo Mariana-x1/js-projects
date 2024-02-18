@@ -39,6 +39,6 @@ function removeItem(arr, number) {
 }
 
 const animal = ["Dog", "Cat", "Lion"];
-console.log(removeItem(animals, 1)); // ["Cat", "Lion"]
-console.log(removeItem(animals, 2)); // ["Dog", "Lion"]
-console.log(removeItem(animals, 3)); // ["Dog", "Cat"]
+console.log(removeItem(animal, 1)); // ["Cat", "Lion"]
+console.log(removeItem(animal, 2)); // ["Dog", "Lion"]
+console.log(removeItem(animal, 3)); // ["Dog", "Cat"]
