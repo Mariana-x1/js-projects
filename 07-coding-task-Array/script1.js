@@ -5,10 +5,10 @@ function removeItem(arr, number) {
   if (number < 1) {
     return arr.slice();
   }
-  const newArray = arr.slice();
+  const newArray = arr.slice(); // Make a copy of the original array
 
-  newArray.splice(number - 1, 1);
-  return newArray;
+  newArray.splice(number - 1, 1); // Remove the item at the specified index
+  return newArray; // Return the modified array
 }
 const animals = ["Dog", "Cat", "Lion"];
 const fruits = [
