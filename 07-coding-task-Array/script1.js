@@ -1,4 +1,4 @@
-//01) removeItem function
+01) removeItem function
 // TODO: Implement the removeItem function
 
 function removeItem(arr, number) {
