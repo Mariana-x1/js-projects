@@ -26,6 +26,8 @@ console.log(animals);
 console.log(removeItem(fruits, 3));
 console.log(fruits);
 
+// extra bonus beispil:
+
 function removeItem(arr, number) {
   let result = arr.slice(); // Make a copy of the original array
   for (let index = 0; index < result.length; index++) {
